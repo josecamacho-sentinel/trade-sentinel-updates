@@ -1,7 +1,8 @@
 {
-  "version": "1.0.0",
-  "download_url": "",
-  "notes_es": "Versión inicial",
-  "notes_en": "Initial release",
+  "version": "2.2.0",
+  "download_url": "https://raw.githubusercontent.com/josecamacho-sentinel/trade-sentinel-updates/main/update_2.2.0.zip",
+  "sha256": "bf0ecf12c6dccf2bd346ea01d304034ac8310d9d0fe6cf60b4b22c05bdc2c889",
+  "notes_es": "v2.2 — Optimizador: edicion de parametros con la tecla Retroceso, sin fallo al repetir variable, carga de historico en paralelo (mas rapida). Backtest: re-seleccion de rango temporal. Menu: descarga de historico desde Binance, editor visual de variables, modo manual por defecto, arreglo de activacion PRO. Robot: comandos de Telegram, aviso cada 12h, bilingue ES/EN, calculo preciso de slippage y comisiones.",
+  "notes_en": "v2.2 — Optimizer: edit parameters with the Backspace key, no crash on repeated variable, parallel history loading (faster). Backtest: time-range re-selection. Menu: Binance history download, visual variable editor, manual mode by default, PRO activation fix. Robot: Telegram commands, 12h heartbeat, ES/EN bilingual, precise slippage and fee calculation.",
   "mandatory": false
 }
