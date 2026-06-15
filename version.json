@@ -1,8 +1,8 @@
 {
-  "version": "2.2.0",
-  "download_url": "https://raw.githubusercontent.com/josecamacho-sentinel/trade-sentinel-updates/main/update_2.2.0.zip",
-  "sha256": "bf0ecf12c6dccf2bd346ea01d304034ac8310d9d0fe6cf60b4b22c05bdc2c889",
-  "notes_es": "v2.2 — Optimizador: edicion de parametros con la tecla Retroceso, sin fallo al repetir variable, carga de historico en paralelo (mas rapida). Backtest: re-seleccion de rango temporal. Menu: descarga de historico desde Binance, editor visual de variables, modo manual por defecto, arreglo de activacion PRO. Robot: comandos de Telegram, aviso cada 12h, bilingue ES/EN, calculo preciso de slippage y comisiones.",
-  "notes_en": "v2.2 — Optimizer: edit parameters with the Backspace key, no crash on repeated variable, parallel history loading (faster). Backtest: time-range re-selection. Menu: Binance history download, visual variable editor, manual mode by default, PRO activation fix. Robot: Telegram commands, 12h heartbeat, ES/EN bilingual, precise slippage and fee calculation.",
+  "version": "2.4.0",
+  "download_url": "https://raw.githubusercontent.com/josecamacho-sentinel/trade-sentinel-updates/main/update_2.4.0.zip",
+  "sha256": "49d31fdad13e6fbd879e8f37abb05ebacd7641206e929583b4be1625e744ab73",
+  "notes_es": "v2.4 - NOVEDAD PRINCIPAL: ahora TRADE SENTINEL opera en Interactive Brokers y puedes generar tu robot para IB (futuros como Nasdaq MNQ), ademas de cripto: selector cripto/IB al generar el robot, conexion por IB Gateway (sin API keys), prueba de conexion desde la app, horario de mercado CME automatico con rollover de contratos, y guia de despliegue incluida (carpeta IB). Cripto: el robot informa en Telegram las comisiones REALES del exchange (antes podia mostrar 0 en MEXC), con PnL neto exacto; entrada mas rapida y precisa. Backtest con desglose por mecanismo de salida. Guia de IB actualizada: arranque automatico del Gateway tras reinicios del servidor y que ocurre al abrir la app movil de IBKR.",
+  "notes_en": "v2.4 - MAIN NEW FEATURE: TRADE SENTINEL now trades on Interactive Brokers and you can generate your IB robot (futures like Nasdaq MNQ), in addition to crypto: crypto/IB selector when generating the robot, IB Gateway connection (no API keys), connection test from the app, automatic CME market hours with contract rollover, and a deployment guide included (IB folder). Crypto: the robot now reports the REAL exchange fees on Telegram (it could previously show 0 on MEXC), with exact net PnL; faster, more accurate entries. Backtest with per-exit-mechanism breakdown. IB guide updated: automatic Gateway startup after server reboots and what happens when you open the IBKR mobile app.",
   "mandatory": false
 }
